@@ -1,0 +1,12 @@
+{
+  "1": {
+    "hand_sanitizer": 80,
+    "toilet_paper": 60,
+    "soap": 90
+  },
+  "2": {
+    "hand_sanitizer": 20,
+    "toilet_paper": 10,
+    "soap": 50
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "1": [
+    {
+      "id": "alert1",
+      "message": "氨气浓度过高",
+      "severity": "critical",
+      "timestamp": "2023-10-26T10:00:00Z",
+      "source": "environment"
+    },
+    {
+      "id": "alert2",
+      "message": "洗手液即将用尽",
+      "severity": "warning",
+      "timestamp": "2023-10-26T09:30:00Z",
+      "source": "supplies"
+    }
+  ],
+  "2": [
+    {
+      "id": "alert3",
+      "message": "厕位长时间占用",
+      "severity": "warning",
+      "timestamp": "2023-10-26T11:00:00Z",
+      "source": "toilets"
+    }
+  ]
+}
