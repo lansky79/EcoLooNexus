@@ -11,9 +11,16 @@ interface Personnel {
   contact: string;
 }
 
+const chineseNames = [
+  '张伟', '王芳', '李娜', '刘洋', '陈静', '周敏', '赵磊', '钱涛', '孙丽', '吴刚',
+  '郑勇', '冯梅', '蒋华', '沈丹', '韩林', '杨帆', '朱红', '秦明', '许亮', '何平',
+  '吕文', '施展', '张丽', '王强', '李明', '刘杰', '陈燕', '周涛', '赵静', '钱丽',
+  '孙强', '吴燕', '郑杰', '冯丽', '蒋涛', '沈静', '韩强', '杨丽', '朱杰', '秦丽',
+];
+
 const mockPersonnelData: Personnel[] = Array.from({ length: 20 }, (_, i) => ({
   id: `p${i + 1}`,
-  name: `员工 ${i + 1}`,
+  name: chineseNames[i % chineseNames.length],
   role: i % 3 === 0 ? '清洁工' : (i % 3 === 1 ? '维修工' : '管理员'),
   contact: `1380000${String(i + 1).padStart(4, '0')}`,
 }));
